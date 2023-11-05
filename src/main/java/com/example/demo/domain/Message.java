@@ -13,6 +13,16 @@ public class Message {
     private String text;
     private String tag;
 
+
+
+    public Message() {
+
+    }
+    public Message(String text, String tag) {
+        this.text = text;
+        this.tag = tag;
+    }
+
     public int getId() {
         return id;
     }
